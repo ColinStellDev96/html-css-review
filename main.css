@@ -1,0 +1,35 @@
+
+h1.label {
+  font-size: 32px;
+  color: peachpuff;
+  margin: 10px;
+  padding: 5px;
+}
+
+span.label {
+  font-size: 16px;
+}
+
+.label {
+  font-size: 18px;
+  color: maroon;
+}
+
+/* a space indicates descendants. */
+
+form div {
+  border: 2px dashed blue;
+}
+
+form {
+  /*percentages in CSS are relative. in this case relative to the container*/
+  height: 60%;
+  widht: 60%;
+  background-color: burlywood;
+  border: 3px inset orangered;
+  border-radius: 10px;
+}
+
+/* specificity: selector with the most ID's is the most specific*/
+/* Same number of ID's? Most classes is most specific*/
+/*Same number of ID's and classes? Most native */
